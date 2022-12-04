@@ -1,5 +1,5 @@
-import smbus
-import time
+import smbus                                // it is used to communicate with the i2c devices and it is part of i2c interface
+import time                                 //
 from colorama import Fore
 
 DEVICE = 0x23
